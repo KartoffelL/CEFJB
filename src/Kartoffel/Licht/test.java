@@ -23,9 +23,7 @@ public class test {
 	static JButton back, forward, reload;
 	static JProgressBar bar;
 	public static void main(String[] args) throws Exception {
-//		String ptj = new File(test.class.getProtectionDomain().getCodeSource().getLocation()
-//			    .toURI()).getPath();
-		CEFInstance.init("C:\\Users\\Anwender\\eclipse-workspace\\Games\\CEFJB\\tempcache\\", "cefclient.exe");
+		CEFInstance.init(new File(test.class.getProtectionDomain().getCodeSource().getLocation().toURI()).getParent()+"/cef", "cefclient.exe");
 		JFrame f = new JFrame();
 		f.setLayout(new BorderLayout());
 		
