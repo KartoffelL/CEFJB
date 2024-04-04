@@ -9,11 +9,11 @@ This whole thing is more a proof of concept than it is good, but some might deem
 The Library always has to be initialized with 'CEFInstance.init(...)'
 
 Using Swing:
-  create a 'CEFSwingComponent' and add it to something lika a JFrame
+  create a 'CEFSwingComponent' and add it to something lika a JFrame.
 
 Other:
   run '<code>CEFFunk.createBrowser(...)</code>' to create a browser and aquire its ID.
   run '<code>CEFInstance.register(browserID, CEFFunk funk)</code>' to register the browser to the specified CEFFunk Object. 
- A CEFFunk Object contains callbacks that can be overridden
+ A CEFFunk Object contains callbacks that can be overridden.
  calls going to the native library can be invoked by the static methods found in CEFFunk, exmpl:
   '<code>CEFFunk.setFocus(browserID, false);</code>'
