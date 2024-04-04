@@ -13,7 +13,7 @@ Using Swing:
 
 Other:
   run '<code>CEFFunk.createBrowser(...)</code>' to create a browser and aquire its ID.
-  run 'CEFInstance.register(browserID, CEFFunk funk)' to register the browser to the specified CEFFunk Object. 
+  run '<code>CEFInstance.register(browserID, CEFFunk funk)</code>' to register the browser to the specified CEFFunk Object. 
  A CEFFunk Object contains callbacks that can be overridden
  calls going to the native library can be invoked by the static methods found in CEFFunk, exmpl:
-  'CEFFunk.setFocus(browserID, false);'
+  '<code>CEFFunk.setFocus(browserID, false);</code>'
