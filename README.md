@@ -17,3 +17,5 @@ Other:
  A CEFFunk Object contains callbacks that can be overridden.
  calls going to the native library can be invoked by the static methods found in CEFFunk, exmpl:
   '<code>CEFFunk.setFocus(browserID, false);</code>'
+
+ (only supports windows, made for learning purpouses)
